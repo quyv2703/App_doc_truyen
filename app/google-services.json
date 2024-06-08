@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "465474759434",
+    "project_id": "webdemo-946f0",
+    "storage_bucket": "webdemo-946f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465474759434:android:3467361ef4e50eccaa68f3",
+        "android_client_info": {
+          "package_name": "com.example.appdoctruyen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465474759434-884ov54g2gq83qotnhugvo0bd7jnvip4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSPUFW3TAsCyRTMS61gk7Wy9Vgn46z0K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465474759434-884ov54g2gq83qotnhugvo0bd7jnvip4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

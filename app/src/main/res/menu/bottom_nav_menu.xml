@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btmnavTruyentranh"
+        android:icon="@drawable/truyentranh"
+        android:title="Truyện tranh" />
+    <item
+        android:id="@+id/TimKiem"
+        android:icon="@drawable/search"
+        android:title="Tìm kiếm" />
+    <item
+        android:id="@+id/TuSach"
+        android:icon="@drawable/book"
+        android:title="Tủ sách" />
+    <item
+        android:id="@+id/Toi"
+        android:icon="@drawable/profile"
+        android:title="Tôi" />
+</menu>

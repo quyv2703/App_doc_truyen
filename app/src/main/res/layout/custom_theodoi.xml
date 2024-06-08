@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        app:cardCornerRadius="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgOfStory"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:src="@drawable/doremon"></ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:text="Doraemon"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+    </TextView>
+
+  <!--  <TextView
+        android:id="@+id/tvChapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Chương 72.1"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        tools:ignore="MissingConstraints"></TextView>-->
+
+    <!-- <androidx.recyclerview.widget.RecyclerView
+         android:id="@+id/rvTheloai"
+         android:layout_width="250dp"
+         android:layout_height="100dp"
+         android:layout_marginStart="8dp"
+         android:layout_marginTop="8dp"
+         android:layout_marginBottom="8dp"
+         app:layout_constraintBottom_toTopOf="@+id/tvLuotXem"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.0"
+         app:layout_constraintStart_toEndOf="@+id/cardView"
+         app:layout_constraintTop_toBottomOf="@+id/tvChapter">
+     </androidx.recyclerview.widget.RecyclerView>-->
+
+
+    <!-- <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:text="21 ngày trước"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvChapter"
+        app:layout_constraintStart_toEndOf="@+id/tvChapter"
+        tools:ignore="MissingConstraints"></TextView>-->
+
+    <!--<TextView
+        android:id="@+id/tvGenre"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="3"
+        android:background="@drawable/custom_theloai"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="Action"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toBottomOf="@+id/tvName">
+
+    </TextView>-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/eye"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardView" />
+
+    <TextView
+        android:id="@+id/tvLuotXem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="130K"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imgchat"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/chat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvLuotXem" />
+
+    <TextView
+        android:id="@+id/tvLuotBinhLuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="807"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgchat">
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
